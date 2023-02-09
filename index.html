@@ -41,10 +41,14 @@
   </section>
 
   <section class="contacts">
+    <span class="contacts__message">Contact me<span>
     <div class="contacts__right">
       <form class="contacts__form" action="#" method="post">
         <div class="contacts__form_field">
-          <input class="form__name" type="text" name="fullname" placeholder="Enter your full name*" required>
+          <input class="form__name" type="text" name="fullname" placeholder="Enter your first name*" required>
+        </div>
+        <div class="contacts__form_field">
+          <input class="form__name" type="text" name="fullname" placeholder="Enter your last name*" required>
         </div>
         <div class="contacts__form_field">
           <input class="form__phone" type="tel" name="phone" placeholder="Enter your phone number*" required>
@@ -53,7 +57,7 @@
           <input class="form__email" type="email" name="email" placeholder="Enter your e-mail*" required>
         </div>
         <div class="contacts__form_field">
-          <textarea class="form__message" name="message" cols="30" rows="10"
+          <textarea class="form__message" name="message" cols="20" rows="10"
             placeholder="Type your message"></textarea>
         </div>
         <button class="contacts__form_btn" type="submit">Submit</button>
