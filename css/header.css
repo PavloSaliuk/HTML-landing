@@ -1,0 +1,11 @@
+.greeting {
+    padding: 25px 0;
+    background-color: beige;
+}
+.greeting__beginning {
+    padding: 25px 0;
+    background-color: blanchedalmond;
+}
+.greeting__name_me {
+    padding: 25px 0;
+}
