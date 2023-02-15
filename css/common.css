@@ -1,6 +1,10 @@
 * {
     max-width: 1200px;
     margin: auto;
+    display: block; 
+    align-items: center;
+    justify-content: space-around ;
+    text-align: center;
 }
 * img {
     max-width: 300px;
