@@ -1,0 +1,24 @@
+* {
+    max-width: 1200px;
+    margin: auto;
+}
+.life {
+    background-color: cornsilk;
+}
+.life__aboutme {
+    padding: 30px; 
+    margin: 50px; 
+    font-size: x-large; 
+}
+.greeting__img  img{
+    max-width: 300px;
+}
+.main__aboutme img {
+    max-width: 300px;
+}
+.contacts {
+    background-color: gold;
+}
+.footer {
+    background-color:darkgrey; 
+}
