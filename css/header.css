@@ -1,7 +1,11 @@
 .header {
     background-image: url(../images/header_background_img.jpeg) ;
+    background-repeat: no-repeat;
+}
+.container {
 }
 .header__content{
+    max-width: 120px;
     padding: 0 24px;
 }
 .header__about_us {
@@ -48,7 +52,7 @@
     color: white;
 }
 .header__contact_phone {
-    padding: 15x 0;
+    padding: 15px 0;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
