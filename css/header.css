@@ -19,10 +19,16 @@
     padding: 100px 0 90px;
 }
 .header__banner_name {
+    font-size: 16px;
 }
 .header__banner_slogan {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 700;
 }
 .header__banner_text {
+    font-size: 20px;
+    margin-top: 35px;
 }
 .header__contact {
 }
@@ -31,8 +37,10 @@
     border-radius: 25px;
 }
 .header__contact_phone {
+    padding: 7.5px 0;
 }
 .header__contact_img {
+    font-size: 17px;
 }
 @media (min-width:992px) {
     .header__about_us {
