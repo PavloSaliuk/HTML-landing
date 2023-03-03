@@ -1,11 +1,46 @@
-.greeting {
-    padding: 25px 0;
-    background-color: beige;
+.header {
+    background-image: url(../images/header_background_img.jpeg) ;
 }
-.greeting__beginning {
-    padding: 25px 0;
-    background-color: blanchedalmond;
+.header__about_us {
+    display: none;
 }
-.greeting__name_me {
-    padding: 25px 0;
+.header__about_us_contacts {
+}
+.header__navigation {
+    display: none;
+}
+.header__navigation_img {
+}
+.header__social_media {
+}
+.header__social_media_img {
+}
+.header__banner {
+    padding: 100px 0 90px;
+}
+.header__banner_name {
+}
+.header__banner_slogan {
+}
+.header__banner_text {
+}
+.header__contact {
+}
+.header__contact_button {
+    padding: 16px 28px;
+    border-radius: 25px;
+}
+.header__contact_phone {
+}
+.header__contact_img {
+}
+@media (min-width:992px) {
+    .header__about_us {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__navigation {
+    display: flex;
+    justify-content: space-between;
+}
 }
