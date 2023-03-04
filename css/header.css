@@ -1,5 +1,6 @@
 .header {
     background-image: url(../images/header_background_img.jpeg) ;
+    background-size: cover  ;
     background-repeat: no-repeat;
 }
 .container {
@@ -10,13 +11,34 @@
 }
 .header__about_us {
     display: none;
+    padding: 15px 0 15px;
 }
 .header__about_us_contacts {
 }
 .header__navigation {
+    padding: 30px 0;
+    display: flex;
 }
-.header__navigation_svg img {
-    width: 100%;
+.header__navigation_photo{
+}
+.header__navigation_button{
+    display: block;
+    /* position: relative; */
+    width: 24px;
+    height: 16px;
+    padding: 12px 8px;
+    background-color: rgb(255, 190, 55);
+    border: 0;
+}
+.header__navigation_button_top {
+}
+.header__navigation_button_center {
+}
+.header__navigation_button_bottom {
+}
+.header__navigation_svg {
+    display: block;
+    max-width: 100%;
 }
 .header__navigation_section{
     display: none;
@@ -25,21 +47,34 @@
     display: none;
 }
 .header__social_media_img {
+    width: 32px;
+    height: 32px;
+    background-color: #e7272d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header__banner {
     padding-top: 100px;
 }
 .header__banner_name {
     font-size: 16px;
+    color: rgb(231, 39, 45);
 }
 .header__banner_slogan {
     margin-top: 20px;
     font-size: 56px;
     font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: left;
 }
 .header__banner_text {
+    color: rgb(69, 69, 69);
     font-size: 20px;
     margin-top: 35px;
+    font-weight: 700;
+    text-align: left;
 }
 .header__contact {
     padding-bottom: 90px;
@@ -50,6 +85,7 @@
     border-radius: 25px;
     background-color: red;
     color: white;
+    border: 0;
 }
 .header__contact_phone {
     padding: 15px 0;
@@ -76,6 +112,11 @@
     justify-content: space-between;
     }
     .header__navigation_section{
+        display: flex;
+        flex-direction: row;
+        margin: 10px 17px;
+    }
+    .header__social_media {
         display: flex;
         flex-direction: row;
     }
