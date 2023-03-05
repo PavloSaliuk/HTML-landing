@@ -18,10 +18,65 @@
     background-size: cover;
     background-position: 43.44% 84.95%;
   }
-  header .banner-bg_origin {
+  header {
     background: url(../images/header_background_img.jpeg) no-repeat;
     padding: 0;
-    background-position: 48.44% 35.95%;
+    background-position: 50% 50%;
+  }
+  .banner {
+    padding: 100px 24px 130px 24px; 
+  }
+  .banner__text {
+    padding: 0 24px;
+  }
+  .banner__text_name {
+    color: rgb(231, 39, 45);
+  }
+  .banner__text_slogan {
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .banner__text_delivery {
+  }
+  .banner__order {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 24px;
+  }
+  .banner__order_button {
+    background-color: rgb(231, 39, 45);
+    height: 50px;
+    width: 140px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;  
+    padding: 16px 20px;
+    border-radius: 25px;
+    color: white;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner__order_contacts{
+    margin-top: 50px;
+    display: flex;
+  }
+  .banner__order_connections{
+    margin: 7.5px;
+  }
+  .banner__order_phone {
+    margin: 7.5px 7.5px 7.5px 0;
+    width: 50px;
+    height: 50px;
+  }
+  .banner__order_call {
+    color: #fff;
+    font-weight: 700;
+  }
+  .banner__order_number {
+    color: rgb(40, 38, 35);
+    font-weight: 700;
   }
   .navigation{
     padding: 0 24px;
