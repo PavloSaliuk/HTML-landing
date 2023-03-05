@@ -2,61 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/favicon_burger.png">
-  <link rel="stylesheet" href="css/index.css">
-  <title>Personal project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Devices Store Website</title>
+    <link rel="icon" href="img/icons/favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__about_us">
-      <div class="header__about_us_text">
-      <div class="header__about_us_contacts">Los Angeles Gournadi, 1230 Bariasl</div>
-      <div class="header__about_us_contacts">freddy.burgers@email.com</div>
-      <div class="header__about_us_contacts">Hours: 9:00 AM - 5:00 PM</div>
-    </div>
-  </div>
-    <section class="header__content container">
-    <div class="header__navigation">
-      <div class="header__navigation_photo">
-        <img class="header__navigation_svg" src="images/header_burger_logo.svg" alt="burger logo">
-      </div>
-      <div class="header__navigation_button navigation-burger">
-        <span></span>
-      </div>
-      <div class="header__navigation_section">
-        <a href="#">About us</a>
-        <a href="#">Menu</a>
-        <a href="#">Catering</a>
-        <a href="#">Contacts</a>
-      </div>
-      <div class="header__social_media">
-          <a class="header__social_media_img" href="https://facebook.com/" target="_blank">1</a>
-          <a class="header__social_media_img" href="https://instagram.com/" target="_blank">2</a>
-          <a class="header__social_media_img" href="https://youtube.com/" target="_blank">3</a>
-      </div>
-    </div>
-    <div class="header__banner">
-      <h2 class="header__banner_name">FREDDY BURGERS</h2>
-      <p class="header__banner_slogan">YOU HAVE A
-        PARTY — WE HAVE TASTY BURGERS!</p>
-        <p class="header__banner_text">Look out for our food truck on the streets of Los Angeles, order delivery or catering, and enjoy the taste of juicy burgers!</p>
-    </div>
-    <div class="header__contact">
-      <button class="header__contact_button">Order Now</button>
-      <div class="header__contact_phone">
-        <img class="header__contact_img" src="images/header_contact_svg.svg" alt="header contact phone">
-        <div class="header__contact_number">Call us<br>+ 1 (234) 567 89 00</div>
-      </div>
-    </div>
-  </section>
-  </header>
-  <main></main>
-  <footer></footer>
-  <script src="js/header_burger.js"></script>
+    <header>
+        <div class="contacts contacts_black">
+            <div class="container-top_contacts">
+                <div class="contacts__item contacts__item_white">
+                    <p class="contacts__cellphone contacts__cellphone_black">Los Angeles Gournadi, 1230 Bariasl</p>
+                </div>
+                    <div class="contacts__item contacts__item_white">
+                    <p class="contacts__cellphone contacts__cellphone_black">freddy.burgers@email.com</p>
+                </div>
+                <div class="contacts__item contacts__item_white">
+                    <p class="contacts__cellphone contacts__cellphone_black">Hours: 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+        <section class="banner-bg banner-bg_origin">
+            <div class="container-section">
+                <nav class="navigation">
+                    <div class="navigation-logo">
+                        <a href="index.html"><img width="150" src="images/header_burger_logo.svg" alt="logo"></a>
+                        <div class="navigation-burger"><span></span></div>
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="navigation-pages">
+                            <a href="#" class="navigations__speakers navigation__link">About us</a>
+                            <a href="#" class="navigations__news navigation__link">Menu</a>
+                            <a href="#" class="navigations__testimonials navigation__link">Catering</a>
+                            <a href="#footer" class="navigations__footer navigation__link">Contacts</a>
+                        </div>
+                        <div class="header__wrapper-contacts header__contacts-info">
+                            <p class="header__address">Los Angeles Gournadi, 1230 Bariasl</p>
+                            <a class="header__email" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
+                            <p class="header__hours">Hours: 9:00 AM - 5:00 PM</p>
+                        </div>
+                        <div class="navigation-social">
+                            <a href="https://www.facebook.com/" target="blank"><img src="images/header--facebook-icons.svg"
+                                    alt="facebook"></a>
+                            <a href="https://www.instagram.com/" target="blank"><img src="images/header-instagram-icons.svg"
+                                    alt="instagram"></a>
+                            <a href="https://www.youtube.com/" target="blank"><img src="images/header-youtube-icons.svg"
+                                    alt="youtube"></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="banner">
+                    <div class="banner__text ">
+                        <h1>Great Sound at Low Prices</h1>
+                        <p>Headphones and loudspeakers from the best brands.</p>
+                    </div>
+                    <div class="links">
+                        <a href="" class="links__about">About us</a>
+                        <a href="" class="links__shop"><span>Shop now</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Start code is for smooth scroll demo -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer id="footer">
+        Footer here
+    </footer>
+    <!-- End code for smooth scroll demo -->
+    
+    <script src="js/burger-menu.js"></script>
 </body>
 
 </html>
